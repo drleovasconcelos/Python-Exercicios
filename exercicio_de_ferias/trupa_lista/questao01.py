@@ -4,12 +4,12 @@
 # enquanto (while) não for digitada a palavra "FIM". Ao final, a lista de compras com os
 # itens adicionados pelo usuário. Dica: utilize a função .append().
 
-lista = []
+lista_de_compra = []
 compras = int(input("Deseja cadastrar um item? 1 - Sim ou 2 - Não = "))
 while compras == 1:
     item = input("Adicionar itens: ")
-    lista.append(item)
-    print("A Lista é: ", lista)
+    lista_de_compra.append(item)
+    print("A Lista é: ", lista_de_compra)
     compras = int(input("Deseja cadastrar um item? 1 - Sim ou 2 - Não = "))
 else:
     terminar = input("Fim")
