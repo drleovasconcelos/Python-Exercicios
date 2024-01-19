@@ -20,6 +20,7 @@ if opcao_repetidos.lower() == "sim":
         if itens_lista.count(item) > 1 and item not in itens_repetidos: ## se ele aparecer mais de 1 vez e não estiver na lista de repetidos, ele e adcionado na lista nova
             itens_repetidos.append(item)
     print("Lista dos itens repetidos: ", itens_repetidos)
+    print("Quantidade de itens duplicados: ", len(itens_repetidos))
 
 else:
     print("Fim")
