@@ -8,7 +8,7 @@
 # 'Grampos', 'Clips de Metal'.
 
 i = 0
-list = ['Lápis', 'Borracha', 'Apontador', 'Pacote Folhas A4', 'Lápis', 'Caneta Bic', 'Clips de Metal', 'Grampos', 'Post It', 
+lista = ['Lápis', 'Borracha', 'Apontador', 'Pacote Folhas A4', 'Lápis', 'Caneta Bic', 'Clips de Metal', 'Grampos', 'Post It', 
         'Suporte p/ Notebook', 'Borracha', 'Lápis', 'Lápis', 'Caneta Bic','Grampos', 'Clips de Metal']
-print("Material de Escritório: ", list)
-print("Quantos elementos tem na lista: ", len(list))
+print("Material de Escritório: ", lista)
+print("Quantos elementos tem na lista: ", len(lista))
