@@ -1,10 +1,6 @@
 lista = []
-# Usando o Input() vamos coletar do usuário qual o número a ser adicionado.
-for i in range(15):
-    numero = int(input('Informe o número: '))
-    lista.append(numero)
-    
-for i,l in enumerate(lista):
-    
-    print(i+1, " -> ", l)
-    
+for i in range(3):
+    lista.append(input("Digite as letras: "))
+print(lista)
+for i, p in enumerate(lista):
+    print(i+1,"-",p)
