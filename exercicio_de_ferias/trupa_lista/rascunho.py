@@ -19,3 +19,9 @@ soma_pares = sum(numeros_pares)
 soma_impares = sum(numeros_impares)
 print("Soma dos números pares:", soma_pares)
 print("Soma dos números ímpares:", soma_impares)
+lista = []
+for i in range(3):
+    lista.append(input("Digite as letras: "))
+print(lista)
+for i, p in enumerate(lista):
+    print(i+1,"-",p)
