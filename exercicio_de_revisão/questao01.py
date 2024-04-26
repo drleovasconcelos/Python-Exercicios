@@ -1,4 +1,4 @@
-0sair = False
+sair = False
 while sair != True:
     codigo = int(input("Qual peso você quer descobrir em outro planeta: \n 1 - Mercurio; \n 2 - Vênus; \n 3 - Marte; \n 4 - Júpiter; \n 5 - Saturno; \n 6 - Urano; \n 0 - Sair; \n"))
     if codigo == 1:
